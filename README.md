@@ -30,8 +30,10 @@ The final project will be deployed using Render.
 
 
 TESTING React Vite up and running
+
 ![alt text](image.png)
 
 
 TESTING client.cjs up and running
+
 ![alt text](image-1.png)

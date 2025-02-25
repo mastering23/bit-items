@@ -1,4 +1,4 @@
-require('dotenv').config({path:'./env/.env'})
+
 const { Client } = require("pg");
 
 const client = new Client({
@@ -9,10 +9,5 @@ const client = new Client({
   port: process.env.PGPORT         // PostgreSQL port   
 });
 
-
- client.connect();
- console.log('Conneting .... ✅');
- client.end();
- console.log('Disconnected .... ❌');
 
 module.exports = client;
